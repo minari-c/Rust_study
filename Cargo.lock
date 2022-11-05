@@ -5,3 +5,19 @@ version = 3
 [[package]]
 name = "first_project"
 version = "0.1.0"
+dependencies = [
+ "fmt",
+ "universe",
+]
+
+[[package]]
+name = "fmt"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "09904adae26440d46daeacb5ed7922fee69d43ebf84d31e078cd49652cecd718"
+
+[[package]]
+name = "universe"
+version = "0.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "90207b25c7391b7b0197b67d7e816048ff57fc8df880e36b55d2d28ed93e67db"
